@@ -1,0 +1,8 @@
+{
+	"Rust: Base Program": {
+		"prefix": "base",
+		"body": ["fn main() {", "\t$0", "}"],
+		"description": "Rust: Base Program",
+		"scope": "rust"
+	}
+}

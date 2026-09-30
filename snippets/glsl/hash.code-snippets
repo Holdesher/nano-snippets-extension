@@ -1,0 +1,15 @@
+{
+	"GLSL: Hash 2D": {
+		"prefix": "hash",
+		"body": [
+			"float hash21(vec2 p) {",
+			"\tp = fract(p * vec2(123.34, 456.21));",
+			"\tp += dot(p, p + 45.32);",
+			"\treturn fract(p.x * p.y);",
+			"}",
+			"$0"
+		],
+		"description": "GLSL: 2D Hash Function",
+		"scope": "glsl"
+	}
+}

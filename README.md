@@ -1,33 +1,36 @@
 <div align="center">
-    <img src="assets/img/docs.png" alt="NanoSnippets" width="240" />
+    <img src="assets/images/logo.png" alt="NanoSnippets" width="240" />
     <h1>Nano Snippets (Holdesher)</h1>
     <p>
         Snippets for various technologies and languages, taking into account all modern trends and rules.
     </p>
 </div>
 
-<br />
+---
 
 <div align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets">
-        <img src="https://vsmarketplacebadges.dev/version-short/kah3vich.nanosnippets.png?style=for-the-badge&colorA=000000&colorB=FFFFFF&label=VERSION" alt="Version">
-    </a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets">
-        <img src="https://vsmarketplacebadges.dev/rating-short/kah3vich.nanosnippets.png?style=for-the-badge&colorA=000000&colorB=FFFFFF&label=Rating" alt="Rating">
-    </a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets">
-        <img src="https://vsmarketplacebadges.dev/installs-short/kah3vich.nanosnippets.png?style=for-the-badge&colorA=000000&colorB=FFFFFF&label=Installs" alt="Installs">
-    </a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets">
-        <img src="https://vsmarketplacebadges.dev/downloads-short/kah3vich.nanosnippets.png?style=for-the-badge&colorA=000000&colorB=FFFFFF&label=Downloads" alt="Downloads">
+        <img src="https://vsmarketplacebadges.dev/version-short/kah3vich.nanosnippets.png?style=for-the-badge" alt="Version">&nbsp;
+        <img src="https://vsmarketplacebadges.dev/rating-short/kah3vich.nanosnippets.png?style=for-the-badge" alt="Rating">&nbsp;
+        <img src="https://vsmarketplacebadges.dev/installs-short/kah3vich.nanosnippets.png?style=for-the-badge" alt="Installs">&nbsp;
+        <img src="https://vsmarketplacebadges.dev/downloads-short/kah3vich.nanosnippets.png?style=for-the-badge" alt="Downloads">
     </a>
 </div>
 
+---
+
+## Platform
+
+- [OpenVSX](https://open-vsx.org/extension/kah3vich/nanosnippets)
+- [Marketplace](https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets)
+
+## Local
+
+- [License](LICENSE)
+- [Changelog](CHANGELOG.md)
+- [Contributing](.github/CONTRIBUTING.md)
+
 ## Materials
 
-- [VSIX](https://filext.com)
-- [Marketplace](https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets)
 - [Generate Snippets](https://snippet-generator.app)
-- [License](.github/LICENSE)
-- [Changelog](.github/CHANGELOG.md)
-- [Contributing](.github/CONTRIBUTING.md)
+- [Convert](https://filext.com)

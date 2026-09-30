@@ -1,0 +1,17 @@
+{
+	"Go: Base Program": {
+		"prefix": "base",
+		"body": [
+			"package main",
+			"",
+			"import \"fmt\"",
+			"",
+			"func main() {",
+			"\tfmt.Println(\"${1:Hello, world!}\")",
+			"\t$0",
+			"}"
+		],
+		"description": "Go: Base Program",
+		"scope": "go"
+	}
+}

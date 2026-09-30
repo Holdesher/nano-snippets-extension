@@ -1,0 +1,14 @@
+{
+	"JS: Base Program": {
+		"prefix": "base",
+		"body": [
+			"const ${1:main} = () => {",
+			"\t$0",
+			"};",
+			"",
+			"${1:main}();"
+		],
+		"description": "JavaScript: Base Program",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact"
+	}
+}

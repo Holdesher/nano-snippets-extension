@@ -1,0 +1,14 @@
+{
+	"Java: Base Program": {
+		"prefix": "base",
+		"body": [
+			"public final class ${1:Main} {",
+			"\tpublic static void main(String[] args) {",
+			"\t\t$0",
+			"\t}",
+			"}"
+		],
+		"description": "Java: Base Program",
+		"scope": "java"
+	}
+}

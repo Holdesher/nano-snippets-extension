@@ -1,0 +1,13 @@
+{
+	"TS: Enum": {
+		"prefix": "enum",
+		"body": [
+			"enum ${1:Name} {",
+			"\t${2:Value} = \"${3:value}\",",
+			"}",
+			"$0"
+		],
+		"description": "TypeScript: Enum",
+		"scope": "typescript,typescriptreact"
+	}
+}

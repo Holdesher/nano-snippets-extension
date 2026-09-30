@@ -1,8 +1,0 @@
-{
-	"JS: Console Log — Important": {
-		"prefix": "ilog",
-		"body": ["console.log(\"🟪 ${1:element}: \", ${1:element})", "$0"],
-		"description": "JS: Console Log — Important",
-		"scope": "html,javascriptreact,javascript,typescriptreact,typescript"
-	}
-}

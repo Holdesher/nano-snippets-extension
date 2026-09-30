@@ -1,0 +1,13 @@
+{
+	"TS: Generic Function": {
+		"prefix": "generic",
+		"body": [
+			"function ${1:identity}<${2:T}>(value: ${2:T}): ${2:T} {",
+			"\treturn value;",
+			"}",
+			"$0"
+		],
+		"description": "TypeScript: Generic Function",
+		"scope": "typescript,typescriptreact"
+	}
+}

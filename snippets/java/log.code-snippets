@@ -1,0 +1,8 @@
+{
+	"Java: Print Log": {
+		"prefix": "log",
+		"body": ["System.out.println(\"${1:value}: \" + ${1:value});", "$0"],
+		"description": "Java: Print Value",
+		"scope": "java"
+	}
+}

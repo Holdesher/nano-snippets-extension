@@ -1,7 +1,9 @@
 .vscode/
 node_modules/
-src/
-*.ts
-*.map
-tsconfig.json
 package-lock.json
+.git/**
+.github/**
+.husky/**
+node_modules/**
+.env
+.env.example

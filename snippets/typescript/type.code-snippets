@@ -1,0 +1,13 @@
+{
+	"TS: Type": {
+		"prefix": "type",
+		"body": [
+			"type ${1:Name} = {",
+			"\t${2:property}: ${3:string};",
+			"};",
+			"$0"
+		],
+		"description": "TypeScript: Type Alias",
+		"scope": "typescript,typescriptreact"
+	}
+}

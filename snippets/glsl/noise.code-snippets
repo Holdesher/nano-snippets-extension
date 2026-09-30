@@ -1,0 +1,21 @@
+{
+	"GLSL: Noise 2D": {
+		"prefix": "noise",
+		"body": [
+			"float noise(vec2 p) {",
+			"\tvec2 i = floor(p);",
+			"\tvec2 f = fract(p);",
+			"\tf = f * f * (3.0 - 2.0 * f);",
+			"",
+			"\treturn mix(",
+			"\t\tmix(hash21(i), hash21(i + vec2(1.0, 0.0)), f.x),",
+			"\t\tmix(hash21(i + vec2(0.0, 1.0)), hash21(i + vec2(1.0)), f.x),",
+			"\t\tf.y",
+			"\t);",
+			"}",
+			"$0"
+		],
+		"description": "GLSL: 2D Value Noise",
+		"scope": "glsl"
+	}
+}

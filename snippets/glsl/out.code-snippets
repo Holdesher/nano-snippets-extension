@@ -1,0 +1,8 @@
+{
+	"GLSL: Output": {
+		"prefix": "out",
+		"body": ["out ${1:vec4} ${2:fragColor};", "$0"],
+		"description": "GLSL: Output Declaration",
+		"scope": "glsl"
+	}
+}

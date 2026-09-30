@@ -1,22 +1,24 @@
 # Changelog
 
-All notable changes to this project will be documented in this section. See [releases](https://github.com/holdesher/nano-snippets/releases) for commit guidelines.
+## [0.0.37] - 2026-09-30
 
-## 0.0.28 (2023-03-05)
+- Added Open VSX namespace and publishing commands.
+- Added local environment configuration templates.
+- Updated extension metadata and platform links.
 
-- FEAT: Init extension
+## [0.0.36] - 2025-10-20
 
-## 0.0.32 (2023-03-12)
+- Added TypeScript, JavaScript, React, HTML, and Python snippets.
+- Fixed snippet syntax and refreshed README context.
 
-- FEAT: Readme & Package config & Snippet for NestJS
+## [0.0.33] - 2023-03-14
 
-## 0.0.33 (2023-03-14)
+- Added NestJS syntax snippets.
 
-- FEAT: snippets syntax for nestjs
-- FIX: compiler for readme & main file snippets
+## [0.0.32] - 2023-03-12
 
-## 0.0.36 (2025-10-20)
+- Updated README and package configuration with NestJS snippets.
 
-- FEAT: snippets TS, JS and React
-- FIX: syntax snippets
-- DOC: Readme context
+## [0.0.28] - 2023-03-05
+
+- Initial extension release.

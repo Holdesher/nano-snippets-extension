@@ -1,0 +1,8 @@
+{
+	"Go: Print Log": {
+		"prefix": "log",
+		"body": ["fmt.Printf(\"${1:value}: %#v\\n\", ${1:value})", "$0"],
+		"description": "Go: Print Debug Value",
+		"scope": "go"
+	}
+}

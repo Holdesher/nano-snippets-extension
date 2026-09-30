@@ -1,0 +1,14 @@
+{
+	"Python: Base Program": {
+		"prefix": "base",
+		"body": [
+			"def main() -> None:",
+			"\t$0",
+			"",
+			"if __name__ == \"__main__\":",
+			"\tmain()"
+		],
+		"description": "Python: Base Program",
+		"scope": "python"
+	}
+}

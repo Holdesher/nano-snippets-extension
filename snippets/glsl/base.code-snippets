@@ -1,0 +1,8 @@
+{
+	"GLSL: Base Shader": {
+		"prefix": "base",
+		"body": ["#version ${1:330} core", "", "void main() {", "\t$0", "}"],
+		"description": "GLSL: Base Shader",
+		"scope": "glsl"
+	}
+}

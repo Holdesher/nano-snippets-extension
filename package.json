@@ -1,30 +1,26 @@
 {
 	"name": "nanosnippets",
 	"publisher": "kah3vich",
-	"displayName": "Nano Snippets",
+	"displayName": "Nano Snippets (Holdesher)",
 	"description": "Snippets for various technologies and languages, taking into account all modern trends and rules.",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/holdesher/Nano-Snippets"
 	},
 	"type": "module",
-	"version": "0.0.36",
+	"version": "0.0.37",
 	"engines": {
-		"vscode": "^1.73.0"
+		"vscode": "^1.99.0"
 	},
 	"preview": false,
-	"extensionPack": [
-		"kah3vich.holdesher"
-	],
 	"categories": [
-		"Extension Packs",
 		"Snippets"
 	],
 	"galleryBanner": {
 		"color": "#20232A",
 		"theme": "dark"
 	},
-	"icon": "assets/img/preview.png",
+	"icon": "assets/images/logo.png",
 	"license": "Apache-2.0",
 	"author": {
 		"name": "holdesher",
@@ -36,7 +32,6 @@
 		"email": "holdesher@ro.ru"
 	},
 	"keywords": [
-		"kah3vich",
 		"holdesher",
 		"nano",
 		"snippets",
@@ -45,67 +40,203 @@
 		"snippets",
 		"react",
 		"html",
+		"css",
+		"python",
+		"rust",
+		"go",
+		"java",
+		"glsl",
 		"ts",
 		"js",
 		"typescript",
 		"javascript"
 	],
-	"main": "./out/extension.js",
-	"browser": "./out/extension.js",
 	"contributes": {
 		"snippets": [
 			{
 				"language": "html",
-				"path": "./snippets/output/snippets.json"
+				"path": "./snippets/html/base.code-snippets"
 			},
 			{
-				"language": "javascriptreact",
-				"path": "./snippets/output/snippets.json"
+				"language": "css",
+				"path": "./snippets/css/base.code-snippets"
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/output/snippets.json"
+				"path": "./snippets/javascript/base.code-snippets"
 			},
 			{
-				"language": "typescriptreact",
-				"path": "./snippets/output/snippets.json"
+				"language": "javascript",
+				"path": "./snippets/javascript/log.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript/elog.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript/wlog.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/javascript/base.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/javascript/log.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/javascript/elog.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/javascript/wlog.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/react/ulog.code-snippets"
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/output/snippets.json"
+				"path": "./snippets/javascript/base.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript/log.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript/elog.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript/wlog.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/javascript/base.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/javascript/log.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/javascript/elog.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/javascript/wlog.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/react/ulog.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/typescript/type.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/typescript/interface.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/typescript/enum.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/typescript/generic.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescript/type.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescript/interface.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescript/enum.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescript/generic.code-snippets"
 			},
 			{
 				"language": "python",
-				"path": "./snippets/output/snippets.json"
-			}
-		],
-		"commands": [
+				"path": "./snippets/python/base.code-snippets"
+			},
 			{
-				"command": "nano-snippets",
-				"title": "Nano Snippets"
+				"language": "python",
+				"path": "./snippets/python/log.code-snippets"
+			},
+			{
+				"language": "rust",
+				"path": "./snippets/rust/base.code-snippets"
+			},
+			{
+				"language": "rust",
+				"path": "./snippets/rust/log.code-snippets"
+			},
+			{
+				"language": "go",
+				"path": "./snippets/go/base.code-snippets"
+			},
+			{
+				"language": "go",
+				"path": "./snippets/go/log.code-snippets"
+			},
+			{
+				"language": "java",
+				"path": "./snippets/java/base.code-snippets"
+			},
+			{
+				"language": "java",
+				"path": "./snippets/java/log.code-snippets"
+			},
+			{
+				"language": "glsl",
+				"path": "./snippets/glsl/base.code-snippets"
+			},
+			{
+				"language": "glsl",
+				"path": "./snippets/glsl/uniform.code-snippets"
+			},
+			{
+				"language": "glsl",
+				"path": "./snippets/glsl/in.code-snippets"
+			},
+			{
+				"language": "glsl",
+				"path": "./snippets/glsl/out.code-snippets"
+			},
+			{
+				"language": "glsl",
+				"path": "./snippets/glsl/hash.code-snippets"
+			},
+			{
+				"language": "glsl",
+				"path": "./snippets/glsl/noise.code-snippets"
 			}
 		]
 	},
-	"activationEvents": [
-		"onCommand:nano-snippets"
-	],
-	"homepage": "https://github.com/holdesher/nano-snippets/readme.md",
-	"dependencies": {
-		"vsce": "^2.15.0"
-	},
+	"homepage": "https://github.com/holdesher/nano-snippets/blob/main/README.md",
+	"pricing": "Free",
+	"qna": false,
 	"devDependencies": {
-		"@types/node": "^22.7.7",
-		"@types/vscode": "^1.63.0",
-		"ts-node": "^10.9.2",
-		"typescript": "^5.6.3"
+		"@vscode/vsce": "^4.0.0",
+		"dotenv-cli": "^8.0.0",
+		"ovsx": "^0.10.7"
 	},
 	"scripts": {
-		"compile": "tsc -p ./",
-		"watch": "tsc -w -p ./",
-		"vsix": "rm -rf *.vsix",
-		"snippets": "node ./scripts/snippets.js",
-		"vscode:prepublish": "npm run vsix && npm run snippets && npm run compile",
 		"build": "vsce package",
+		"clear": "rm -rf *.vsix",
+		"ovsx:namespace": "dotenv -e .env -- sh -c 'ovsx create-namespace kah3vich -p \"$OVSX_TOKEN\"'",
+		"ovsx:publish": "dotenv -e .env -- sh -c 'ovsx publish nanosnippets-0.0.37.vsix -p \"$OVSX_TOKEN\"'",
+		"ovsx:publish:build": "npm run build && npm run ovsx:publish",
 		"prepare": "husky"
 	}
 }
