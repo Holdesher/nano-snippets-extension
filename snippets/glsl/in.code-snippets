@@ -1,8 +1,10 @@
 {
 	"GLSL: Input": {
 		"prefix": "in",
-		"body": ["in ${1:vec2} ${2:uv};", "$0"],
-		"description": "GLSL: Input Declaration",
-		"scope": "glsl"
+		"body": [
+			"in ${1:vec2} ${2:uv};",
+			"$0"
+		],
+		"description": "GLSL: Input Declaration"
 	}
 }

@@ -1,8 +1,10 @@
 {
 	"JS: Console Log": {
 		"prefix": "log",
-		"body": ["console.log(\"${1:value}:\", ${1:value});", "$0"],
-		"description": "JavaScript: Console Log",
-		"scope": "javascript,javascriptreact,typescript,typescriptreact"
+		"body": [
+			"console.log(\"${1:value}\", ${1:value});",
+			"$0"
+		],
+		"description": "JavaScript: Console Log"
 	}
 }

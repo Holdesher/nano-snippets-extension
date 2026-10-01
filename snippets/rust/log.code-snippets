@@ -1,8 +1,10 @@
 {
 	"Rust: Print Log": {
 		"prefix": "log",
-		"body": ["println!(\"${1:value}: {:?}\", ${1:value});", "$0"],
-		"description": "Rust: Print Debug Value",
-		"scope": "rust"
+		"body": [
+			"println!(\"${1:value}: {:?}\", ${1:value});",
+			"$0"
+		],
+		"description": "Rust: Print Debug Value"
 	}
 }

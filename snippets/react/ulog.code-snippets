@@ -7,7 +7,6 @@
 			"}, [${1:value}]);",
 			"$0"
 		],
-		"description": "React: useEffect with Console Log",
-		"scope": "javascriptreact,typescriptreact"
+		"description": "React: useEffect with Console Log"
 	}
 }

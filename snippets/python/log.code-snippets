@@ -1,8 +1,10 @@
 {
 	"Python: Print Log": {
 		"prefix": "log",
-		"body": ["print(\"${1:value}:\", ${1:value})", "$0"],
-		"description": "Python: Print Value",
-		"scope": "python"
+		"body": [
+			"print(\"${1:value}:\", ${1:value})",
+			"$0"
+		],
+		"description": "Python: Print Value"
 	}
 }

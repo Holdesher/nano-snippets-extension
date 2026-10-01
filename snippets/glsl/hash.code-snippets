@@ -9,7 +9,6 @@
 			"}",
 			"$0"
 		],
-		"description": "GLSL: 2D Hash Function",
-		"scope": "glsl"
+		"description": "GLSL: 2D Hash Function"
 	}
 }

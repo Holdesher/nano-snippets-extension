@@ -1,8 +1,10 @@
 {
 	"GLSL: Uniform": {
-		"prefix": "uniform",
-		"body": ["uniform ${1:float} ${2:uValue};", "$0"],
-		"description": "GLSL: Uniform Declaration",
-		"scope": "glsl"
+		"prefix": "uni",
+		"body": [
+			"uniform ${1:float} ${2:uValue};",
+			"$0"
+		],
+		"description": "GLSL: Uniform Declaration"
 	}
 }

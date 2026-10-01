@@ -7,11 +7,10 @@
 			"import \"fmt\"",
 			"",
 			"func main() {",
-			"\tfmt.Println(\"${1:Hello, world!}\")",
+			"\tfmt.Printf(\"value: %#v\\n\", value)",
 			"\t$0",
 			"}"
 		],
-		"description": "Go: Base Program",
-		"scope": "go"
+		"description": "Go: Base Program"
 	}
 }

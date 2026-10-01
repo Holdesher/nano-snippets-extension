@@ -4,11 +4,11 @@
 		"body": [
 			"public final class ${1:Main} {",
 			"\tpublic static void main(String[] args) {",
+			"\t\tSystem.out.println(\"value: \" + value);",
 			"\t\t$0",
 			"\t}",
 			"}"
 		],
-		"description": "Java: Base Program",
-		"scope": "java"
+		"description": "Java: Base Program"
 	}
 }

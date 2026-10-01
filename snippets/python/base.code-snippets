@@ -3,12 +3,12 @@
 		"prefix": "base",
 		"body": [
 			"def main() -> None:",
-			"\t$0",
+			"\tprint(\"value:\", value)",
 			"",
 			"if __name__ == \"__main__\":",
-			"\tmain()"
+			"\tmain()",
+			"$0"
 		],
-		"description": "Python: Base Program",
-		"scope": "python"
+		"description": "Python: Base Program"
 	}
 }

@@ -2,6 +2,12 @@
 	"GLSL: Noise 2D": {
 		"prefix": "noise",
 		"body": [
+			"float hash21(vec2 p) {",
+			"\tp = fract(p * vec2(123.34, 456.21));",
+			"\tp += dot(p, p + 45.32);",
+			"\treturn fract(p.x * p.y);",
+			"}",
+			"",
 			"float noise(vec2 p) {",
 			"\tvec2 i = floor(p);",
 			"\tvec2 f = fract(p);",
@@ -15,7 +21,6 @@
 			"}",
 			"$0"
 		],
-		"description": "GLSL: 2D Value Noise",
-		"scope": "glsl"
+		"description": "GLSL: 2D Value Noise with Hash Dependency"
 	}
 }

@@ -8,7 +8,7 @@
 		"url": "https://github.com/holdesher/Nano-Snippets"
 	},
 	"type": "module",
-	"version": "0.0.37",
+	"version": "0.0.40",
 	"engines": {
 		"vscode": "^1.99.0"
 	},
@@ -46,9 +46,7 @@
 		"go",
 		"java",
 		"glsl",
-		"ts",
 		"js",
-		"typescript",
 		"javascript"
 	],
 	"contributes": {
@@ -79,91 +77,7 @@
 			},
 			{
 				"language": "javascriptreact",
-				"path": "./snippets/javascript/base.code-snippets"
-			},
-			{
-				"language": "javascriptreact",
-				"path": "./snippets/javascript/log.code-snippets"
-			},
-			{
-				"language": "javascriptreact",
-				"path": "./snippets/javascript/elog.code-snippets"
-			},
-			{
-				"language": "javascriptreact",
-				"path": "./snippets/javascript/wlog.code-snippets"
-			},
-			{
-				"language": "javascriptreact",
 				"path": "./snippets/react/ulog.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/javascript/base.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/javascript/log.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/javascript/elog.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/javascript/wlog.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/javascript/base.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/javascript/log.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/javascript/elog.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/javascript/wlog.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/react/ulog.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/typescript/type.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/typescript/interface.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/typescript/enum.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/typescript/generic.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/typescript/type.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/typescript/interface.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/typescript/enum.code-snippets"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/typescript/generic.code-snippets"
 			},
 			{
 				"language": "python",
@@ -235,7 +149,7 @@
 		"build": "vsce package",
 		"clear": "rm -rf *.vsix",
 		"ovsx:namespace": "dotenv -e .env -- sh -c 'ovsx create-namespace kah3vich -p \"$OVSX_TOKEN\"'",
-		"ovsx:publish": "dotenv -e .env -- sh -c 'ovsx publish nanosnippets-0.0.37.vsix -p \"$OVSX_TOKEN\"'",
+		"ovsx:publish": "dotenv -e .env -- sh -c 'ovsx publish nanosnippets-0.0.40.vsix -p \"$OVSX_TOKEN\"'",
 		"ovsx:publish:build": "npm run build && npm run ovsx:publish",
 		"prepare": "husky"
 	}
