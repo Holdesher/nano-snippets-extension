@@ -28,7 +28,9 @@
 
 ### HTML
 
-- `base` — creates a complete HTML document.
+#### `base`
+
+Creates a complete HTML document.
 
 ```html
 <!DOCTYPE html>
@@ -49,7 +51,9 @@
 
 ### CSS
 
-- `base` — creates a reset stylesheet with common defaults.
+#### `base`
+
+Creates a reset stylesheet with common defaults.
 
 ```css
 *,
@@ -122,7 +126,9 @@ a {
 
 ### JavaScript
 
-- `base` — creates a callable function.
+#### `base`
+
+Creates an Immediately Invoked Function Expression (IIFE).
 
 ```javascript
 (() => {
@@ -130,19 +136,25 @@ a {
 })();
 ```
 
-- `log` — creates a complete logging example.
+#### `log`
+
+Logs a variable to the console along with its name.
 
 ```javascript
 console.log("value", value);
 ```
 
-- `elog` — creates a complete error logging example.
+#### `elog`
+
+Logs an error to the console along with its name.
 
 ```javascript
 console.error('error:', error);
 ```
 
-- `wlog` — creates a complete warning logging example.
+#### `wlog`
+
+Logs a warning to the console along with its name.
 
 ```javascript
 console.warn('warning:', warning);
@@ -150,7 +162,9 @@ console.warn('warning:', warning);
 
 ### React
 
-- `ulog` — creates a component with a `useEffect` logger.
+#### `ulog`
+
+Logs a variable inside a React `useEffect` hook.
 
 ```jsx
 useEffect(() => {
@@ -160,7 +174,9 @@ useEffect(() => {
 
 ### Python
 
-- `base` — creates a value print statement.
+#### `base`
+
+Creates a basic script structure with a main function.
 
 ```python
 def main() -> None:
@@ -170,7 +186,9 @@ if __name__ == "__main__":
 	main()
 ```
 
-- `log` — creates a complete value print statement.
+#### `log`
+
+Prints a variable along with its name.
 
 ```python
 print("value:", value)
@@ -178,7 +196,9 @@ print("value:", value)
 
 ### Rust
 
-- `base` — creates a complete program.
+#### `base`
+
+Creates a basic program structure with a main function.
 
 ```rust
 fn main() {
@@ -186,7 +206,9 @@ fn main() {
 }
 ```
 
-- `log` — creates a complete debug logging program.
+#### `log`
+
+Prints a debug-formatted variable along with its name.
 
 ```rust
 println!("value: {:?}", value);
@@ -194,7 +216,9 @@ println!("value: {:?}", value);
 
 ### Go
 
-- `base` — creates a complete program.
+#### `base`
+
+Creates a basic program structure with a main function.
 
 ```go
 package main
@@ -206,7 +230,9 @@ func main() {
 }
 ```
 
-- `log` — creates a complete formatted print program.
+#### `log`
+
+Prints a formatted variable along with its name.
 
 ```go
 fmt.Printf("value: %#v\n", value)
@@ -214,7 +240,9 @@ fmt.Printf("value: %#v\n", value)
 
 ### Java
 
-- `base` — creates a complete Java program.
+#### `base`
+
+Creates a basic Java program structure with a main class.
 
 ```java
 public final class Example {
@@ -224,7 +252,9 @@ public final class Example {
 }
 ```
 
-- `log` — creates a complete Java logging program.
+#### `log`
+
+Prints a variable along with its name to standard output.
 
 ```java
 System.out.println("value: " + value);
@@ -232,7 +262,9 @@ System.out.println("value: " + value);
 
 ### GLSL
 
-- `base` — creates a complete shader entry point.
+#### `base`
+
+Creates a complete shader entry point.
 
 ```glsl
 #version 330 core
@@ -241,25 +273,33 @@ void main() {
 }
 ```
 
-- `uni` — creates a uniform declaration.
+#### `uni`
+
+Declares a uniform float variable.
 
 ```glsl
 uniform float uValue;
 ```
 
-- `in` — creates an input declaration.
+#### `in`
+
+Declares an input vector variable.
 
 ```glsl
 in vec2 uv;
 ```
 
-- `out` — creates an output declaration.
+#### `out`
+
+Declares an output vector variable.
 
 ```glsl
 out vec4 fragColor;
 ```
 
-- `hash` — creates the `hash21` function.
+#### `hash`
+
+Implements a 2D pseudo-random hash function (`hash21`).
 
 ```glsl
 float hash21(vec2 p) {
@@ -269,7 +309,9 @@ float hash21(vec2 p) {
 }
 ```
 
-- `noise` — creates the `hash21` dependency and `noise` function.
+#### `noise`
+
+Implements a 2D value noise function along with its hash dependency.
 
 ```glsl
 float hash21(vec2 p) {

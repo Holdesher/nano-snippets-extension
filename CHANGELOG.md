@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.41] - 2026-10-02
+
+- Formatted snippet examples in README with descriptive headers and proper capitalization.
+
 ## [0.0.40] - 2026-10-01
 
 - Dropped TypeScript and TSX snippet contributions and removed the `ts`/`typescript` keywords.

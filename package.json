@@ -8,7 +8,7 @@
 		"url": "https://github.com/holdesher/Nano-Snippets"
 	},
 	"type": "module",
-	"version": "0.0.40",
+	"version": "0.0.41",
 	"engines": {
 		"vscode": "^1.99.0"
 	},
@@ -149,7 +149,7 @@
 		"build": "vsce package",
 		"clear": "rm -rf *.vsix",
 		"ovsx:namespace": "dotenv -e .env -- sh -c 'ovsx create-namespace kah3vich -p \"$OVSX_TOKEN\"'",
-		"ovsx:publish": "dotenv -e .env -- sh -c 'ovsx publish nanosnippets-0.0.40.vsix -p \"$OVSX_TOKEN\"'",
+		"ovsx:publish": "dotenv -e .env -- sh -c 'ovsx publish nanosnippets-0.0.41.vsix -p \"$OVSX_TOKEN\"'",
 		"ovsx:publish:build": "npm run build && npm run ovsx:publish",
 		"prepare": "husky"
 	}
