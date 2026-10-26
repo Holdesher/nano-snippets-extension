@@ -1,7 +1,7 @@
 <div align="center">
 	<img src="assets/images/logo.png" alt="NanoSnippets" width="240" />
 	<h1>Nano Snippets (Holdesher)</h1>
-	<p>⚙️ handy code snippets for VS Code</p>
+	<p>⚙️ Code snippets for VS Code</p>
 </div>
 
 ---
